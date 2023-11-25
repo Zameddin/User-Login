@@ -31,9 +31,10 @@ button{
 }
 input::placeholder{
     font-size: 11px;
-}
-/* p{
+} 
+p{
+    display: none;
 text-align: center;
     border: 1px solid red;
     margin-top: 0px
-} */
+} 

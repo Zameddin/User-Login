@@ -5,8 +5,7 @@ import { useState } from 'react';
 
 
 const UserLogin = () => {
-   let displayNone = document.querySelector('.displayNone');
-
+   
 
 
     const [alert1, setAlert] = useState('');
@@ -19,10 +18,11 @@ const UserLogin = () => {
         let b = a.split('.').reverse()[0]
         if (b === 'com' || b === 'az') {
             setAlert('Zehmet olmasa .ru yazin');
-       
+            document.querySelector('.displayNone').style.display = 'block'
             setCheck(b)
         } else {
-            setAlert('a');
+            document.querySelector('.displayNone').style.display = 'none'
+            setAlert('');
         }
     }
     const checkSubmit = (e) => {
