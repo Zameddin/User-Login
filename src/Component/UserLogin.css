@@ -1,0 +1,39 @@
+.UserLogin{
+ 
+    margin: auto;
+    width: 50%;
+    border: 1px solid gray;
+align-items: center;
+ display: flex;
+ flex-direction:column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.input1{
+    margin-left: 50px;
+}
+.input2{
+    
+    margin-left: 21px;
+}
+label{
+    font-weight: 600;
+}
+button{
+    margin: auto;
+    width: 50px;
+}
+input::placeholder{
+    font-size: 11px;
+}
+/* p{
+text-align: center;
+    border: 1px solid red;
+    margin-top: 0px
+} */
